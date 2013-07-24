@@ -114,7 +114,8 @@ $(function() {
   }
 
   var new_game = function() {
-    //### refresh the page to begin a new game
+    //that's all there is ...
+    window.location.href = window.location.href
   };
 
   // call initialize() to get the party started
