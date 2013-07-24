@@ -115,6 +115,7 @@ $(function() {
 
   var new_game = function() {
     //that's all there is ...
+    // see http://stackoverflow.com/questions/2405117/difference-between-window-location-href-window-location-href-and-window-location
     window.location.href = window.location.href
   };
 
