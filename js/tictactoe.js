@@ -1,0 +1,123 @@
+$(function() {
+
+  //### 'jquery' UI elements for game manipulation
+  //var game              =    // the game container
+  //var board             =    // the board  container
+  var status_indicators = $('#teams li');   // status bar container
+
+  var tiles = [];                         // all the "tiles"
+
+  var players = [                         // player data
+    {
+      name:      'Ernie',
+      marker:    '&times;',
+      img_url:   'img/ernie.jpg',
+      indicator: $(status_indicators[0])
+    },
+    {
+      name:      'Bert',
+      marker:    '&oslash;',
+      img_url:   'img/bert.jpg',
+      indicator: $(status_indicators[1])
+    }
+  ];
+
+  var current_player;                     // player data
+  var turns  = 0;                         // elapsed turns
+
+  //### There are eight winning combos, the first two are supplied.
+  //### What are the other six? Add 'em.
+  var win_combos = [
+    [0,1,2], [3,4,5]
+  ];
+
+  var initialize = function() {
+    //### ready the board for game play
+
+    //### 1.) Create nine tiles. Each is in a div, each gets a 'click handler'.
+    //### Make sure giving each tile a unique 'id' for targeting. Find tile's 'class' in css.
+    //### Append tiles to board.
+
+    //### 2.) Make first player the current_player
+
+    //### 3.) Set up the players 'indicators' in UI
+    //### - set player image, name, marker
+    //### - set player name
+    //### - the 'current_player' has a different style (see css '.current')
+
+    //### 4.) fade in the game
+  };
+
+  var handle_click = function() {
+    //### this function is bound to a click event for each tile on the board
+  }
+
+  var is_active = function(tile) {
+    //### returns boolean, is tile active?
+  };
+  var activate_tile = function(tile) {
+    //### activate tile
+    //### don't forget to up 'turn' count
+  };
+
+  var toggle_player = function() {
+    //### After each turn, toggle the current player and update player indicators
+  };
+
+  var get_current_player_index = function() {
+    //### return the current player's index in the players array
+  };
+
+  var get_board_data = function() {
+    //### return array with the current player's positions on the board
+    //### for example, if current player clicked entire top row
+    //### the result is [0, 1, 2]. If current player clicked center tile, the result is [4]
+  };
+
+  var is_win = function() {
+    // ### whether or not the current player's positions result in a win
+    // ### returns boolean
+  };
+
+  var is_tie = function() {
+    //### has the game resulted in a tie?
+    //### returns boolean
+  };
+
+  var handle_win = function() {
+    //### update the UI to reflect that a win has occurred.
+    //### call update_results with winner's params
+    // update_results( .... )
+  };
+
+  var handle_tie = function() {
+    //### update the UI to reflect that a tie game has occurred.
+    //### call update_results with ruber ducky params
+    // update_results( .... )
+  }
+
+  update_results = function(args) {
+    //### helper function: call this to update the "results" container after detecting
+    //### a win or a tie, like
+    //### - show results panel
+    //### - display winner/tie name and image
+    //### - congrats message
+    //### - show new_game button
+  }
+
+  var hide_indicators = function() {
+    //### optional: call this to hide the "status" container after detecting a win or a tie
+  };
+
+  var show_combo = function(combo) {
+    //### optional: call this to highlight the combination of tiles that resulted in a win
+  }
+
+  var new_game = function() {
+    //### refresh the page to begin a new game
+  };
+
+  // call initialize() to get the party started
+  initialize();
+
+});
