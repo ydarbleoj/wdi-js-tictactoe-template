@@ -53,7 +53,7 @@ $(function() {
   }
 
   var is_active = function(tile) {
-    //### returns boolean, is tile active?
+    //### boolean - is tile active?
   };
   var activate_tile = function(tile) {
     //### activate tile
@@ -64,11 +64,8 @@ $(function() {
     //### After each turn, toggle the current player and update player indicators
   };
 
-  var get_current_player_index = function() {
-    //### return the current player's index in the players array
-  };
-
   var get_board_data = function() {
+    //### needed to detect a win
     //### return array with the current player's positions on the board
     //### for example, if current player clicked entire top row
     //### the result is [0, 1, 2]. If current player clicked center tile, the result is [4]
@@ -86,22 +83,17 @@ $(function() {
 
   var handle_win = function() {
     //### update the UI to reflect that a win has occurred.
-    //### call update_results with winner's params
-    // update_results( .... )
+    //### - show results panel
+    //### - display winner name and image
+    //### - congrats message
+    //### - show new_game button
+
   };
 
   var handle_tie = function() {
     //### update the UI to reflect that a tie game has occurred.
-    //### call update_results with ruber ducky params
-    // update_results( .... )
-  }
-
-  update_results = function(args) {
-    //### helper function: call this to update the "results" container after detecting
-    //### a win or a tie, like
     //### - show results panel
-    //### - display winner/tie name and image
-    //### - congrats message
+    //### - display tie and rubber ducky image
     //### - show new_game button
   }
 
@@ -111,11 +103,12 @@ $(function() {
 
   var show_combo = function(combo) {
     //### optional: call this to highlight the combination of tiles that resulted in a win
+    //### e.g. colors winning XXX or OOO red.
   }
 
   var new_game = function() {
-    //that's all there is ...
     // see http://stackoverflow.com/questions/2405117/difference-between-window-location-href-window-location-href-and-window-location
+    // nothing to add here
     window.location.href = window.location.href
   };
 
