@@ -55,6 +55,7 @@ $(function() {
   var is_active = function(tile) {
     //### boolean - is tile active?
   };
+  
   var activate_tile = function(tile) {
     //### activate tile
     //### don't forget to up 'turn' count
@@ -64,12 +65,6 @@ $(function() {
     //### After each turn, toggle the current player and update player indicators
   };
 
-  var get_board_data = function() {
-    //### needed to detect a win
-    //### return array with the current player's positions on the board
-    //### for example, if current player clicked entire top row
-    //### the result is [0, 1, 2]. If current player clicked center tile, the result is [4]
-  };
 
   var is_win = function() {
     // ### whether or not the current player's positions result in a win
