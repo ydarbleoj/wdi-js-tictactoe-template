@@ -34,7 +34,7 @@ $(function() {
   var initialize = function() {
     //### ready the board for game play
 
-    //### 1.) Create nine tiles. Each is in a div, each gets a 'click handler'.
+    //### 1.) Create nine tiles. Each is a div, each needs to be bound to 'handle_click'.
     //### Make sure giving each tile a unique 'id' for targeting. Find tile's 'class' in css.
     //### Append tiles to board.
 
