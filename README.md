@@ -23,7 +23,7 @@ Think about how you would approach game play, how to manage players, detect win/
 
 	https://github.com/aikalima/wdi-js-tictactoe-final
 
-I leave it up to you how much you want to challenge yourself. You can use the solution as a model for your app, or just for hints on how to solve certain aspects, or don't look at it at all :-)
+We leave it up to you how much you want to challenge yourself. You can use the solution as a model for your app, or just for hints on how to solve certain aspects, or don't look at it at all :-)
 
 Both repos contain a bare bones node web server (same one we used in Mondays lesson). After fork/clone, simply fire it up:
 
@@ -41,7 +41,7 @@ and go to
 - One controller and a single view is probably all you need, so no routes or resources required.
 - Don't use jQuery or the native DOM api, instead bind DOM elements the Angular way.
 - The original solution comes with all bells and whistles, like delayed fade-in animation and other goodies. That's not a requirement but try to make your app feel as close as possible to the original.
-- I encourage you to write in CoffeeScript, but feel free to use plain JavaScript if that's what you are in to.
+- We encourage you to write in CoffeeScript, but feel free to use plain JavaScript if that's what you are in to.
 
 ###Bonus
 
