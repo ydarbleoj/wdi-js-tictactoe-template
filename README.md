@@ -15,7 +15,7 @@ It contains:
 - index.html
 - tictactoe.js
 	
-**Examine tictactoe.js.** Comments througout the file provide hints on how to model data structures and implement function stubs. Read the comments carefully.
+**Examine tictactoe.js.** Comments provide hints on how to model data structures and implement function stubs. Read the comments carefully.
 
 Think about how you would approach game play, how to manage player, detect win, update UI, etc.
 
