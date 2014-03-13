@@ -47,4 +47,8 @@ and go to
 
 -	Add the option to allow Ernie to play against the computer instead of Bert.
 
+###Bonus Bonus
+
+- Implement an algortithm that can't be beat.
+
 
