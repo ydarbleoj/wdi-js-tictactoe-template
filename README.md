@@ -4,7 +4,7 @@ Angular mini project
 
 You are a are going to implement good old **Tic Tac Toe** in Angular JS!
 
-As a starting point, here's a template using JavaScript/jQuery. It contains all files for a plain JavaScript solution.
+As a starting point, here's a template using JavaScript/jQuery. It contains all files with stubs for a plain JavaScript solution.
 
 		https://github.com/aikalima/wdi-js-tictactoe-template
 
