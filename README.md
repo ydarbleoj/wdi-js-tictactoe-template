@@ -17,7 +17,7 @@ It contains:
 	
 **Examine tictactoe.js.** Comments provide hints on how to model data structures and implement function stubs. Read the comments carefully.
 
-Think about how you would approach game play, how to manage player, detect win, update UI, etc.
+Think about how you would approach game play, how to manage players, detect win/tie, update UI, etc.
 
 **After you've done some thinking**, go here to see a **complete solution** in plain JavaScript. 
 
@@ -25,7 +25,7 @@ Think about how you would approach game play, how to manage player, detect win, 
 
 I leave it up to you how much you want to challenge yourself. You can use the solution as a model for your app, or just for hints on how to solve certain aspects, or don't look at it at all :-)
 
-Both repos contain bare bones node web server (same one we used in Monday's lesson). After fork/clone, simply fire it up:
+Both repos contain a bare bones node web server (same one we used in Mondays lesson). After fork/clone, simply fire it up:
 
 	node web-server.js
 	
