@@ -45,7 +45,7 @@ and go to
 
 ###Bonus
 
--	Add the option to allow Ernie to play against the computer instead of Bert.
+-	Add the option to allow Ernie to play against the computer instead of Bert. The alogorithm should be better than picking tiles randomly.
 
 ###Bonus Bonus
 
