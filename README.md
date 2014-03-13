@@ -4,7 +4,7 @@ Angular mini project
 
 You are a are going to implement good old **Tic Tac Toe** in Angular JS!
 
-Here's a template that provides you with all files
+As a starting point, here's a template using JavaScript/jQuery. It contains all files for a plain JavaScript solution.
 
 		https://github.com/aikalima/wdi-js-tictactoe-template
 
@@ -23,7 +23,7 @@ Think about how you would approach game play, how to manage player, detect win, 
 
 	https://github.com/aikalima/wdi-js-tictactoe-final
 
-I leave it up to you how much you want to challenge yourself. You can use the solution as a model for your app, or just as a hint on how to solve certain aspects, or don't look at it at all :-)
+I leave it up to you how much you want to challenge yourself. You can use the solution as a model for your app, or just for hints on how to solve certain aspects, or don't look at it at all :-)
 
 Both repos contain bare bones node web server (same one we used in Monday's lesson). After fork/clone, simply fire it up:
 
@@ -36,7 +36,7 @@ and go to
 		
 ###Requirements
 
-- Start a new project and implement the game in Angular JS
+- **Start a new project and implement the game in Angular JS**
 - Feel free to build on top of rails or use node web server that is in the solution. Tic Tac Toe doesn't require api server calls, so it doesn't really matter.
 - One controller and a single view is probably all you need, so no routes or resources required.
 - Don't use jQuery or the native DOM api, instead bind DOM elements the Angular way.
