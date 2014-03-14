@@ -42,12 +42,9 @@ and go to
 - Don't use jQuery or the native DOM api, instead bind DOM elements the Angular way.
 - The original solution comes with all bells and whistles, like delayed fade-in animation and other goodies. That's not a requirement but try to make your app feel as close as possible to the original.
 - We encourage you to write in CoffeeScript, but feel free to use plain JavaScript if that's what you are in to.
+- Add the option to allow Ernie to play against the computer instead of Bert. The alogorithm should be better than picking tiles randomly.
 
 ###Bonus
-
--	Add the option to allow Ernie to play against the computer instead of Bert. The alogorithm should be better than picking tiles randomly.
-
-###Bonus Bonus
 
 - Implement an algortithm that can't be beat.
 
