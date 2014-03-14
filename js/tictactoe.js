@@ -28,7 +28,7 @@ $(function() {
   //### There are eight winning combos, the first two are supplied.
   //### What are the other six? Add 'em.
   var win_combos = [
-    [0,1,2], [3,4,5]
+    [0,1,2], [2, 5, 8], [0, 3, 6], [6, 7, 8], [0, 4, 8], [2, 4,6], [1, 4, 7], [3, 4, 5]
   ];
 
   var initialize = function() {
@@ -111,3 +111,9 @@ $(function() {
   initialize();
 
 });
+
+
+
+
+
+

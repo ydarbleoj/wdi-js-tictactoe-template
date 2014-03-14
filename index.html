@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="tttApp">
   <head>
     <title>TIC TAC TOE</title>
     <link rel="stylesheet" type="text/css" href="css/reset.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>  
+    <script src="js/underscore.min.js"></script>
+
   </head>
   <body>
-
-     <div id="game">
-       <ul id="teams">
-        <li>
-          <img src="">
-          <h2>Team <span class="team"></span></h2>
-          <h3 class="player"></h3>
-        </li>
-        <li>
-          <img src="">
-          <h2>Team <span class="team"></span></h2>
-          <h3 class="player"></h3>
-        </li>
-      </ul>
-      <div id="board">
-      </div>
-      <div id="results">
-        <h1></h1>
-        <span class="image"></span>
-        <button>play again</button>
+    <div ng-controller="myCtrl">
+       <div id="game">
+         <ul id="teams">
+          <li>
+            <img src="img/bert.jpg">
+            <h2>Team <span class="team"></span></h2>
+            <h3 class="player" ></h3>
+          </li>
+          <li>
+            <img src="img/ernie.jpg">
+            <h2>Team <span class="team"></span></h2>
+            <h3 class="player"></h3>
+          </li>
+        </ul>
+        <div id="board">
+          <div class="tile" id="0"></div>
+          <div class="tile" id="1"></div>
+          <div class="tile" id="2"></div>
+          <div class="tile" id="3"></div>
+          <div class="tile" id="4"></div>
+          <div class="tile" id="5"></div>
+          <div class="tile" id="6"></div>
+          <div class="tile" id="7"></div>
+          <div class="tile" id="8"></div>
+        </div>
+<!--         <div id="results">
+          <h1></h1>
+          <span class="image"></span>
+ -->          <!-- <button>play again</button> -->
+        </div>
       </div>
     </div>
 
+
+
+    <!-- SCRIPTS  -->
+  <script src="js/tttApp.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-  <script src="js/underscore.min.js"></script>
   <script src="js/tictactoe.js"></script>
+
   </body>
 </html>
 
