@@ -7,12 +7,14 @@ tttApp.controller('myCtrl', ['$scope', function($scope){
       name:      'Ernie',
       symbol:    'X',
       img_url:   'img/ernie.jpg',
+      indicator: 0, 
       tiles:     []
     },
     {
       name:      'Bert',
       symbol:    'O',
       img_url:   'img/bert.jpg',
+      indicator: 1, 
       tiles:     []
     }
   ];
@@ -101,7 +103,7 @@ tttApp.controller('myCtrl', ['$scope', function($scope){
   }
 
 
-   var initialize = function(){
+  var initialize = function(){
     $scope.currentPlayer = $scope.players[0];
     _.each($scope.tiles, function(tile){
       tile.letter = "";
