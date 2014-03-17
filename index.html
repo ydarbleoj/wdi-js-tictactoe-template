@@ -21,8 +21,8 @@
         <div id="board">
           <div id="{{$index}}" ng-repeat="tile in tiles" class="tile" ng-click="clickTile($index)">{{ tile.letter }}</div>
         </div>
-          <div id="results" ng-show="winGame" class="ng-show">
-            <h1></h1>
+          <div id="results" ng-show="showResults">
+            <h1>{{ results }}</h1>
             <span class="image"></span>
             <button>play again</button>
           </div>

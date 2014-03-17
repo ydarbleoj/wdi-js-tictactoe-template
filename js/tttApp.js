@@ -48,7 +48,7 @@ tttApp.controller('myCtrl', ['$scope', function($scope){
   $scope.clickTile = function(id){
   	var tiles = $scope.tiles;
   	var tile = $.grep(tiles, function(t) { return t.id == id;})[0];
-  	if (tile.active === false){
+  	if ( (tile.active === false) && !(gameOver) ){
   		var player = $scope.currentPlayer;
   		tile.letter = player.symbol;
   		tile.active = true;
@@ -70,6 +70,8 @@ tttApp.controller('myCtrl', ['$scope', function($scope){
   }
 
   var tieGame = function() {
+    // make a div showResutls = true 
+    
   	console.log("You Tied!")
   }
 
